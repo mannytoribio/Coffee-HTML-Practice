@@ -4,7 +4,7 @@ function handleForm(event) {
   const gender = document.getElementById('gender').value
   const age = Number(document.getElementById('age').value)
   console.log({name, age})
-  fetch('url', {
+  fetch('url', {              // this url is fake
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
