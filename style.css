@@ -1,0 +1,11 @@
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #999;
+  background-color: #ccc;
+}
