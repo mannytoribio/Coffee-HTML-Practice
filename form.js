@@ -3,7 +3,7 @@ function handleForm(event) {
   const name = document.getElementById('name').value
   const gender = document.getElementById('gender').value
   const age = Number(document.getElementById('age').value)
-  console.log({name, age})
+  console.log({name, gender, age})
   fetch('url', {              // this url is fake
     method: 'POST',
     headers: {
