@@ -11,7 +11,7 @@ function handleForm(event) {
     },
     body: JSON.stringify({name, age, body})
   })
-  .then(req => req.json)
+  .then(req => req.json())
   .then(data => console.log(data))
   .catch(err => console.log(err))
   alert('Welcome ' + name)
